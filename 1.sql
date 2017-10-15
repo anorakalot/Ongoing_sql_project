@@ -1,9 +1,9 @@
-CREATE DATABASE test;
-USE test;
-CREATE TABLE characters(
+CREATE DATABASE school;
+USE school;
+CREATE TABLE students(
   name VARCHAR(45) DEFAULT NULL,
-  realm VARCHAR(45) DEFAULT NULL
+  gpa INT(20)DEFAULT NULL
 )ENGINE=InnoDB;
 
-INSERT INTO characters(name,realm)
-VALUES('spiderman','marvel');
+INSERT INTO students(name,gpa)
+VALUES('mary',4.00);
